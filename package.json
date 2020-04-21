@@ -1,0 +1,15 @@
+{
+    "name": "@j127/web_components_experiment",
+    "version": "0.1.0",
+    "description": "Experimenting with web components",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "npx live-server public/index.html"
+    },
+    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
