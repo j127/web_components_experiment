@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Web Components</title>
+        <style>
+            body {
+                font-family: monospace;
+            }
+            .page-wrapper {
+                max-width: 1000px;
+                margin: 11px auto;
+            }
+            .page-header {
+                margin: 0 0 0 31px;
+            }
+            .cats {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 21px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header class="page-header">
+                <h1>Web Components</h1>
+                <p>Just a simple web component demo.</p>
+            </header>
+            <section class="cats">
+                <cat-card
+                    name="Alice"
+                    img="https://placekitten.com/250/250"
+                ></cat-card>
+                <cat-card
+                    name="Bob"
+                    img="https://placekitten.com/250/249"
+                ></cat-card>
+                <cat-card
+                    name="Cat Stevens"
+                    img="https://placekitten.com/249/250"
+                ></cat-card>
+            </section>
+        </div>
+
+        <script defer src="/js/main.js"></script>
+    </body>
+</html>

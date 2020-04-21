@@ -5,7 +5,7 @@
     "private": true,
     "main": "index.js",
     "scripts": {
-        "start": "npx live-server public/index.html"
+        "start": "npx live-server public"
     },
     "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
     "license": "BSD-3-Clause",
